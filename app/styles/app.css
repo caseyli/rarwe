@@ -70,15 +70,3 @@ html, body {
   float: left;
   margin-left: 3px;
 }
-
-/* get rid off after bootstrap */
-.star-rating {
-  display:inline-block;
-  width:10px;
-  height:10px;
-  border:1px solid black;
-}
-.star-rating.glyphicon-star {
-  background-color:black;
-}
-/* end */

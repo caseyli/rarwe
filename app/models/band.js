@@ -8,7 +8,7 @@ export default Ember.Object.extend({
     return this.get('name').dasherize();
   }),
   site: Ember.computed('slug', 'language', function(){
-    conole.log('Recomputing slug');
+    console.log('Recomputing slug');
     return 'http://bands.com/' + this.get('slug') + '.' + this.get('language');
   }),
 
