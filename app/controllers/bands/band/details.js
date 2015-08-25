@@ -5,6 +5,7 @@ export default Ember.Controller.extend({
   actions: {
     save: function() {
       this.set('isEditing', false);
+      return true;
     },
     edit: function() {
       this.set('isEditing', true);
